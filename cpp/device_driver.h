@@ -1,5 +1,5 @@
 #pragma once
-#include "FlashMemoryDevice.h"
+#include "flash_memory_device.h"
 
 class DeviceDriver
 {
