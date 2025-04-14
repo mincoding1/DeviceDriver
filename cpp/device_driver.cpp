@@ -1,4 +1,4 @@
-#include "DeviceDriver.h"
+#include "device_driver.h"
 
 DeviceDriver::DeviceDriver(FlashMemoryDevice *hardware) : m_hardware(hardware)
 {}
