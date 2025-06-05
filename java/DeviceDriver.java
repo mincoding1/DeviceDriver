@@ -3,16 +3,20 @@
  */
 public class DeviceDriver {
 
+    FlashMemoryDevice hw;
+
     public DeviceDriver(FlashMemoryDevice hardware) {
         // TODO: implement this method
+        hw = hardware;
     }
 
     public byte read(long address) {
         // TODO: implement this method
-        return -1;
+        return hw.read(address);//
     }
 
     public void write(long address, byte data) {
         // TODO: implement this method
+        hw.write(address, data);
     }
 }
